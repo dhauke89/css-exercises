@@ -46,3 +46,31 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.push-left,
+.push-left ul {
+  display: flex;
+  gap: 16px;
+}
+
+.push-left ul {
+  padding-left: 0;
+}
+
+
+.push-right {
+  display: flex;
+  gap: 16px;
+  margin-right: 16px;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-right: 0px;
+}
